@@ -34,7 +34,7 @@ export default {
     },
     tag: {
       type: String,
-      default: "router-link"
+      default: "router-link-active"
     }
   },
   methods: {
@@ -50,4 +50,6 @@ export default {
   }
 };
 </script>
-<style></style>
+<style>
+
+</style>

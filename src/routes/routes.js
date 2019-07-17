@@ -8,6 +8,7 @@ import Icons from "@/pages/Icons.vue";
 import Maps from "@/pages/Maps.vue";
 import Notifications from "@/pages/Notifications.vue";
 import ReportGenerated from "@/pages/ReportGenerated.vue";
+import InspectionReport from "@/pages/Reports/InspectionReport.vue";
 
 const routes = [
   {
@@ -24,6 +25,11 @@ const routes = [
         path: "reports",
         name: "Report Generated",
         component: ReportGenerated
+      },
+      {
+        path: "reports/:report_id",
+        name: "Inspection Report",
+        component: InspectionReport
       },
       {
         path: "user",

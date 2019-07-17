@@ -7,8 +7,11 @@ import StatsCard from "./Cards/StatsCard.vue";
 import NavTabsTable from "./Tables/NavTabsTable.vue";
 import OrderedTable from "./Tables/OrderedTable.vue";
 import SimpleTable from "./Tables/SimpleTable.vue";
+import ClientTable from "./Tables/ClientTable.vue";
 
 import ApprovedReport from "./Reports/ApprovedReport.vue";
+
+
 
 export {
   ChartCard,
@@ -17,5 +20,6 @@ export {
   NavTabsTable,
   OrderedTable,
   SimpleTable,
-  ApprovedReport
+  ApprovedReport,
+  ClientTable
 };
