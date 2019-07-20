@@ -9,8 +9,9 @@ import OrderedTable from "./Tables/OrderedTable.vue";
 import SimpleTable from "./Tables/SimpleTable.vue";
 import ClientTable from "./Tables/ClientTable.vue";
 
+// Report
 import ApprovedReport from "./Reports/ApprovedReport.vue";
-
+import ReportPageHeader from "./Reports/ReportPageHeader.vue"
 
 
 export {
@@ -21,5 +22,6 @@ export {
   OrderedTable,
   SimpleTable,
   ApprovedReport,
-  ClientTable
+  ClientTable,
+  ReportPageHeader
 };

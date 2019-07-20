@@ -62,31 +62,16 @@
                 <div>cc : </div>
             </div>
 
-            <div class="md-layout report-common-header">
-                <div class="md-layout-item report-border-right"></div>
-                <div class="md-layout-item report-border-right">INSPECTION REPORT</div>
-                <div class="md-layout-item">
-                    <div class="md-layout">
-                        <div class="md-layout-item report-border-right">Contract No : </div>
-                        <div class="md-layout-item"></div>
-                    </div>
-                    <div class="md-layout report-border-top">
-                        <div class="md-layout-item">Title</div>
-                    </div>
-                    <div class="md-layout report-border-top">
-                        <div class="md-layout-item report-border-right">Report No</div>
-                        <div class="md-layout-item"></div>
-                    </div>
-                    <div class="md-layout report-border-top">
-                        <div class="md-layout-item report-border-right">Page No</div>
-                        <div class="md-layout-item"></div>
-                    </div>
-                </div>
+            
+
+            <div v-for="(content,index) in contents" :key="index">
+              <report-page-header />
+              <div class="md-layout report-common-content">
+                <div v-html="content.content"></div>
+              </div>
             </div>
 
-            <div class="md-layout report-common-content">
-                // content //
-            </div>
+            
           </div>
         </md-card-content>
       </md-card>
@@ -158,12 +143,19 @@
 </style>
 
 <script>
+import report from '@/data/report-01.json'
+import { ReportPageHeader } from "@/components";
 export default {
+  components: {
+    ReportPageHeader
+  },
   data() {
     return {
       cluster: "Cluster Title : ",
       report_description: "Report Description :",
-      date_of_inspection: "Date OF INSPECTION"
+      date_of_inspection: "Date OF INSPECTION",
+      raw: report,
+      contents: report.page_content
     };
   }
 };

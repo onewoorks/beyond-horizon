@@ -1,0 +1,81 @@
+{
+    "tableOfContents": {
+        "header": [
+            "Item",
+            "Description",
+            "Page"
+        ],
+        "items": [
+            {
+                "item": "1.0",
+                "description": "Introduction",
+                "page": "3"
+            },
+            {
+                "item": "2.0",
+                "description": "Inspection Scope And Methods",
+                "page": ""
+            },
+            {
+                "item": "3,0",
+                "description": "Equipment Used",
+                "page": ""
+            },
+            {
+                "item": "4.0",
+                "description": "Flare Overview",
+                "page": ""
+            },
+            {
+                "item": "5.0",
+                "description": "Inspection Findings And Recommendations",
+                "page": "",
+                "sub": [
+                    {
+                        "item": "5.1",
+                        "description": "Inspection Finding Summary",
+                        "page": ""
+                    },
+                    {
+                        "item": "5.2",
+                        "description": "Inspection Findings - Section 1 : Flare Tips, Service Platform, Flare Piping, Flare Boom",
+                        "page": ""
+                    },
+                    {
+                        "item": "5.3",
+                        "description": "Inspection Findgins - Section 2 : Flare Boom, Piping",
+                        "page": ""
+                    },
+                    {
+                        "item": "5.4",
+                        "description": "Inspection Findings - Section 3 : Flare Boom, Piping",
+                        "page": ""
+                    }
+                ]
+            },
+            {
+                "item": "6.0",
+                "description": "Appendices",
+                "page": "",
+                "sub":[
+                    {
+                        "item": 1,
+                        "description": "Appendix 1 - Equipment Specifications",
+                        "page": ""
+                    }
+                ]
+            }
+        ]
+    },
+    "page_content":[
+        {
+            "page_no":1,
+            "content":"<p><strong>1.0 INTRODUCTION<\/strong><\/p>\r\n<p>This report details the findings of a structural inspection of the Flare Tip and Flare Boom at D35, D35PG-A, for PCSB-SK0. The inspection was executed by Beyond Horizon Technologies Sdn. Bhd. on 28th September 2018. The various tasks comprising the inspection of this structure were executed by Remote Operated Aerial Vehicle (ROAV) BHTech M210 Multicopter. The BHTech M210 Multicopter is equipped with the latest ROAV technology and carry a high definition camera with 30x Optical remote zoom. The objective of the inspection was to assess the existing condition in order to provide data for future maintenance. A team of consisting of 1 experience ROAV pilot and 1 experience welding inspector was mobilized to D35, D35PG-A to conduct this aerial inspection. This aerial inspection is a cost effective inspection by eliminating the need of platform shutdown, as well as reducing the risk of injury to personnel while working at height.<\/p>\r\n<p>This inspection survey was requested by PCSB-SKO for further action and analysis purposes.<\/p>\r\n<p><strong>2.0 INSPECTION SCOPE AND METHODS<\/strong><\/p>\r\n<p>This Inspection was carried out by a combination of close visual inspection techniques and analyzing pictures that were taken by High resolution digital camera that is attached to the ROAV. This Vent Tip inspection was made to observe any findings and determine whether a further detailed inspections need to carry out by using other method of testing (NDT).<\/p>\r\n<p>This inspection was carried out without the need to shutdown the vent and thus no disturbance to operational activity<br \/>at D35PG-A Facilities. This inspection activity was conducted out by utilizing ROAV operated within a safe proximity of the structure to capture high resolution images.<\/p>\r\n<p><strong>3.0 EQUIPMENT USED<\/strong><\/p>\r\n<ul>\r\n<li>Remotely Operated Aerial Vehicle (ROAV) &ndash; BHTech M210 Multicopter equipped with High Resolution Digital Camera.<\/li>\r\n<\/ul>"
+        },
+        {
+            "page_no":1,
+            "content":"<p><strong>1.0 INTRODUCTION<\/strong><\/p>\r\n<p>This report details the findings of a structural inspection of the Flare Tip and Flare Boom at D35, D35PG-A, for PCSB-SK0. The inspection was executed by Beyond Horizon Technologies Sdn. Bhd. on 28th September 2018. The various tasks comprising the inspection of this structure were executed by Remote Operated Aerial Vehicle (ROAV) BHTech M210 Multicopter. The BHTech M210 Multicopter is equipped with the latest ROAV technology and carry a high definition camera with 30x Optical remote zoom. The objective of the inspection was to assess the existing condition in order to provide data for future maintenance. A team of consisting of 1 experience ROAV pilot and 1 experience welding inspector was mobilized to D35, D35PG-A to conduct this aerial inspection. This aerial inspection is a cost effective inspection by eliminating the need of platform shutdown, as well as reducing the risk of injury to personnel while working at height.<\/p>\r\n<p>This inspection survey was requested by PCSB-SKO for further action and analysis purposes.<\/p>\r\n<p><strong>2.0 INSPECTION SCOPE AND METHODS<\/strong><\/p>\r\n<p>This Inspection was carried out by a combination of close visual inspection techniques and analyzing pictures that were taken by High resolution digital camera that is attached to the ROAV. This Vent Tip inspection was made to observe any findings and determine whether a further detailed inspections need to carry out by using other method of testing (NDT).<\/p>\r\n<p>This inspection was carried out without the need to shutdown the vent and thus no disturbance to operational activity<br \/>at D35PG-A Facilities. This inspection activity was conducted out by utilizing ROAV operated within a safe proximity of the structure to capture high resolution images.<\/p>\r\n<p><strong>3.0 EQUIPMENT USED<\/strong><\/p>\r\n<ul>\r\n<li>Remotely Operated Aerial Vehicle (ROAV) &ndash; BHTech M210 Multicopter equipped with High Resolution Digital Camera.<\/li>\r\n<\/ul>"
+        }
+    ]
+
+}
