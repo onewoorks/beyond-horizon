@@ -1,7 +1,9 @@
 <template>
     <div>
         <div class="md-layout report-common-header">
-                <div class="md-layout-item report-border-right"></div>
+                <div class="md-layout-item report-border-right md-size-15">
+                    <img :src="`${logo}`" />
+                </div>
                 <div class="md-layout-item report-border-right">INSPECTION REPORT</div>
                 <div class="md-layout-item">
                     <div class="md-layout">
@@ -25,6 +27,11 @@
 </template>
 <script>
 export default {
-    name: "report-page-header"
+    name: "report-page-header",
+    data(){
+        return {
+            logo: require('@/assets/img/logo.gif')
+        }
+    }
 }
 </script>

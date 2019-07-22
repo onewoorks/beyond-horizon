@@ -62,8 +62,6 @@
                 <div>cc : </div>
             </div>
 
-            
-
             <div v-for="(content,index) in contents" :key="index">
               <report-page-header />
               <div class="md-layout report-common-content">
@@ -71,10 +69,24 @@
               </div>
             </div>
 
+            <div v-for="(appendix, index) in appendices" :key="index">
+              <report-page-header />
+              <div class="md-layout report-common-content">
+                <div v-for="(equipment, eid) in appendix" :key="eid">
+                  <div v-if="equipment.category == 'images'">
+                    <img :src="require(`@/data/Equipments/images/${equipment.data}`)" />
+                  </div>
+
+                  <div v-if="equipment.category != 'images'">{{ equipment}}</div>
+                </div>
+              </div>
+
+            </div>
             
           </div>
         </md-card-content>
       </md-card>
+
     </div>
   </div>
 </template>
@@ -145,9 +157,10 @@
 <script>
 import report from '@/data/report-01.json'
 import { ReportPageHeader } from "@/components";
+
 export default {
   components: {
-    ReportPageHeader
+    ReportPageHeader,
   },
   data() {
     return {
@@ -155,8 +168,9 @@ export default {
       report_description: "Report Description :",
       date_of_inspection: "Date OF INSPECTION",
       raw: report,
-      contents: report.page_content
+      contents: report.page_content,
+      appendices: report.appendices
     };
-  }
+  },
 };
 </script>

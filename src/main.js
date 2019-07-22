@@ -36,6 +36,9 @@ const router = new VueRouter({
   routes, // short for routes: routes
   linkActiveClass: "nav-item active"
 });
+Vue.config.ignoredElements = [
+  'trix-editor',
+];
 
 Vue.prototype.$Chartist = Chartist;
 

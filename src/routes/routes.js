@@ -9,6 +9,7 @@ import Maps from "@/pages/Maps.vue";
 import Notifications from "@/pages/Notifications.vue";
 import ReportGenerated from "@/pages/ReportGenerated.vue";
 import InspectionReport from "@/pages/Reports/InspectionReport.vue";
+import Equipments from '@/components/Plugins/Tiptap.vue'
 
 const routes = [
   {
@@ -63,7 +64,7 @@ const routes = [
         path: "notifications",
         name: "Notifications",
         component: Notifications
-      }
+      },
     ]
   }
 ];

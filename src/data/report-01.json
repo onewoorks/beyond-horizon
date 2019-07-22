@@ -76,6 +76,258 @@
             "page_no":1,
             "content":"<p><strong>1.0 INTRODUCTION<\/strong><\/p>\r\n<p>This report details the findings of a structural inspection of the Flare Tip and Flare Boom at D35, D35PG-A, for PCSB-SK0. The inspection was executed by Beyond Horizon Technologies Sdn. Bhd. on 28th September 2018. The various tasks comprising the inspection of this structure were executed by Remote Operated Aerial Vehicle (ROAV) BHTech M210 Multicopter. The BHTech M210 Multicopter is equipped with the latest ROAV technology and carry a high definition camera with 30x Optical remote zoom. The objective of the inspection was to assess the existing condition in order to provide data for future maintenance. A team of consisting of 1 experience ROAV pilot and 1 experience welding inspector was mobilized to D35, D35PG-A to conduct this aerial inspection. This aerial inspection is a cost effective inspection by eliminating the need of platform shutdown, as well as reducing the risk of injury to personnel while working at height.<\/p>\r\n<p>This inspection survey was requested by PCSB-SKO for further action and analysis purposes.<\/p>\r\n<p><strong>2.0 INSPECTION SCOPE AND METHODS<\/strong><\/p>\r\n<p>This Inspection was carried out by a combination of close visual inspection techniques and analyzing pictures that were taken by High resolution digital camera that is attached to the ROAV. This Vent Tip inspection was made to observe any findings and determine whether a further detailed inspections need to carry out by using other method of testing (NDT).<\/p>\r\n<p>This inspection was carried out without the need to shutdown the vent and thus no disturbance to operational activity<br \/>at D35PG-A Facilities. This inspection activity was conducted out by utilizing ROAV operated within a safe proximity of the structure to capture high resolution images.<\/p>\r\n<p><strong>3.0 EQUIPMENT USED<\/strong><\/p>\r\n<ul>\r\n<li>Remotely Operated Aerial Vehicle (ROAV) &ndash; BHTech M210 Multicopter equipped with High Resolution Digital Camera.<\/li>\r\n<\/ul>"
         }
-    ]
-
+    ],
+    "appendices":{
+        "equipments":[
+        {
+          "category": "images",
+          "data": "dji-matrice-210.jpg"
+        },
+        {
+          "category": "Aircraft",
+          "data": [
+            {
+              "label": "Package Dimension",
+              "value": "31.1×15.4×11.4inch (790×390×290mm)"
+            },
+            {
+              "label": "Dimensions (unfolded)",
+              "value": "34.9×34.6×14.9 inch (887×880×378 mm)"
+            },
+            {
+              "label": "Max Takeoff Weight",
+              "value": "6.14 kg"
+            },
+            {
+              "label": "Hovering Accuracy (during safe flights)",
+              "value": [
+                "Vertical: ±0.5，Downward Vision System enabled: ±0.1",
+                "Horizontal: ±1.5，Downward Vision System enabled: ±0.3"
+              ]
+            },
+            {
+              "label": "Max Angular Velocity",
+              "value": [
+                "Pitch: 300° /s",
+                "Yaw:150° /s"
+              ]
+            },
+            {
+              "label": "Max Pitch Angle (Dual Downward Gimbals)",
+              "value": [
+                "P Mode: 25°（Forward Vision System enabled:25°",
+                "A Mode: 25°",
+                "S Mode: 30°"
+              ]
+            },
+            {
+              "label": "Max Pitch Angle (Single Upward/Downward Gimbal)",
+              "value": [
+                "P Mode: 30°（Forward Vision System enabled: 25°",
+                "A Mode: 30°",
+                "S Mode: 35°"
+              ]
+            },
+            {
+              "label": "Max Ascent Speed",
+              "value": "16.4 ft/s (5 m/s)"
+            },
+            {
+              "label": "Max Descent Speed",
+              "value": "Vertical: 9.8 ft/s (3 m/s)"
+            },
+            {
+              "label": "Max Speed (Dual Downward Gimbals)",
+              "value": [
+                "S Mode : 40.3 mph (64.8 kph)",
+                "P Mode : 38 mph (612.2 kph)",
+                "A Mode : 38 mph (61.2 kph)"
+              ]
+            },
+            {
+              "label": "Max Speed (Single Upward/Downward Gimbals)",
+              "value": [
+                "S Mode : 51.4 mph (82.8 kph)",
+                "P Mode : 38 mph (61.2 kph)",
+                "A Mode : 51.4 mph (82.8 kph)"
+              ]
+            },
+            {
+              "label": "Max Service Ceilling Above Sea Level",
+              "value": "1.86 miles (3000m)"
+            },
+            {
+              "label": "Max Wind Resistance",
+              "value": "39.4 ft/s (12m/s)"
+            },
+            {
+              "label": "Max Flight Time (No Payload, With TB50)",
+              "value": "27 minutes"
+            },
+            {
+              "label": "Max Flight Time (No Payload, With TB55)",
+              "value": "38 minutes"
+            },
+            {
+              "label": "Max Flight Time (With Payload, with TB50)",
+              "value": "13 minutes"
+            },
+            {
+              "label": "Max Flight Time (With Payload, TB55)",
+              "value": "24 minutes"
+            },
+            {
+              "label": "Operating Temperature",
+              "value": "-4° to 113° F (-20° to 45° C)"
+            },
+            {
+              "label": "IP Rating",
+              "value": "IP43"
+            }
+          ]
+        },
+        {
+          "category": "Forward Vision System",
+          "data": [
+            {
+              "label": "Obstacle Sensing Range",
+              "value": "2.3-98.4 feet (0.7-30 m)"
+            },
+            {
+              "label": "FOV",
+              "value": "Horizontal 60°，Vertical 54°"
+            },
+            {
+              "label": "Operating Environment",
+              "value": "Surfaces with clear patterns and adequate lighting (> 15 lux)"
+            }
+          ]
+        },
+        {
+          "category": "Downward Vision System",
+          "data": [
+            {
+              "label": "Velocity Range",
+              "value": "< 32.8 ft/s (10 m/s) at height of 6.56 feet (2 m)"
+            },
+            {
+              "label": "Altitude Range",
+              "value": "< 32.8 feet (10m)"
+            },
+            {
+              "label": "Operating Range",
+              "value": "< 32.8 feet (10m)"
+            },
+            {
+              "label": "Operating Environment",
+              "value": "Surface with clear pattern and adequate lighting (> 15 lux)"
+            },
+            {
+              "label": "Ultrasonic Sensor Operating Range",
+              "value": "0.33 - 16.4 feet (10-500cm)"
+            }
+          ]
+        },
+        {
+          "category": "Upward Infrared Sensor",
+          "data": [
+            {
+              "label": "Obstacle Sensing Range",
+              "value": "0-16.4 feet (0-5 m)"
+            },
+            {
+              "label": "FOV",
+              "value": "±5°"
+            },
+            {
+              "label": "Operating Environment",
+              "value": "Large, diffuse and reflective obstacles (reflectivity > 10%)"
+            }
+          ]
+        },
+        {
+          "category": "Remote Controller",
+          "data": [
+            {
+              "label": "Type",
+              "value": "GL800A"
+            },
+            {
+              "label": "Operating Frequency",
+              "value": "2.400-2483 Ghz; 5.725-5.825 Ghz"
+            },
+            {
+              "label": "Max Transmitting Distance (ubobstructed, free of interference)",
+              "value": [
+                "2.4 GHz: 4.3 miles (7 km, FCC)",
+                "2.2 miles (3.5km, CE)",
+                "2.5 miles (4 km, SRRC) 5.8 GHz: 4.3 miles (7 km, FCC)",
+                "1.2 miles (2 km,CE)",
+                "3.1 miles (5 km, SRRC)"
+              ]
+            },
+            {
+              "label": "E1RP",
+              "value": [
+                "2.4 GHz: 26 dBm (FCC); 17 dBm (CE); 20 dBm(SRRC)",
+                "5.8 GHz: 28 dBm (FCC); 14 dBm (CE); 20 dBm(SRRC)"
+              ]
+            },
+            {
+              "label": "Power Supply",
+              "value": "Extended Intelligent Battery (Model: WB37-4920mAh Lipo)"
+            },
+            {
+              "label": "Intelligence Battery",
+              "value": "4932 mAh Lipo"
+            },
+            {
+              "label": "Charging",
+              "value": "DJI Charger"
+            },
+            {
+              "label": "Output Power",
+              "value": [
+                "20W (suppling power to DJI CS550 monitor)",
+                "12W (without supplying power to monitor)"
+              ]
+            },
+            {
+              "label": "Video Output Ports",
+              "value": "USB, HDMI, SDI"
+            },
+            {
+              "label": "USB Supply Power",
+              "value": [
+                "iOS: 1A, 5.2V (max)",
+                "android: 1.5A, 5.2V (max)"
+              ]
+            },
+            {
+              "label": "Dual User Capability",
+              "value": "Master and Slave Connection"
+            },
+            {
+              "label": "Operating Temperature",
+              "value": "-4° to 104° F (-20° to 40° C)"
+            },
+            {
+              "label": "Storing Temperature",
+              "value": [
+                "Less than 3 months: -4 ° to 113 °F (-20 °to 45°C)",
+                "More than 3 months: 72 °to 82 °F (22 °to 28 °C)"
+              ]
+            },
+            {
+              "label": "Charging Temperature",
+              "value": "About 4 hours (only master remote controller function enabled without supplying power to monitor)"
+            },
+            {
+              "label": "Weight",
+              "value": "1041 g"
+            }
+          ]
+        }
+      ]
+    }
 }

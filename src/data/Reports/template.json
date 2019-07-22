@@ -1,0 +1,115 @@
+{
+    "report": {
+      "contract_no": "",
+      "report_no": "",
+      "cluster_field": "",
+      "report_description": "",
+      "date_of_inspection": "",
+      "accessor": {
+        "inspected_by": [
+          {
+            "name": "",
+            "position": "",
+            "date": "",
+            "signature": ""
+          },
+          {
+            "name": "",
+            "position": "",
+            "date": "",
+            "signature": ""
+          }
+        ],
+        "reviewed_by": [
+          {
+            "name": "",
+            "position": "",
+            "date": "",
+            "signature": ""
+          },
+          {
+            "name": "",
+            "position": "",
+            "date": "",
+            "signature": ""
+          }
+        ],
+        "approved_by": [
+          {
+            "name": "",
+            "position": "",
+            "date": "",
+            "signature": ""
+          },
+          {
+            "name": "",
+            "position": "",
+            "date": "",
+            "signature": ""
+          }
+        ]
+      }
+    },
+    "pages": {
+      "table_of_contents": [
+        {
+          "item": "",
+          "description": "",
+          "page": ""
+        },
+        {
+          "item": "",
+          "description": "",
+          "page": ""
+        },
+        {
+          "item": "",
+          "description": "",
+          "page": ""
+        },
+        {
+          "item": "",
+          "description": "",
+          "page": ""
+        },
+        {
+          "item": "",
+          "description": "",
+          "page": ""
+        },
+        {
+          "item": "",
+          "description": "",
+          "page": ""
+        },
+        {
+          "item": "",
+          "description": "",
+          "page": ""
+        },
+        {
+          "item": "",
+          "description": "",
+          "page": ""
+        }
+      ]
+    },
+    "contents": [
+      {
+        "page": "",
+        "html_content": ""
+      },
+      {
+        "page": "",
+        "html_content": ""
+      },
+      {
+        "page": "",
+        "html_content": ""
+      },
+      {
+        "page": "",
+        "html_content": ""
+      }
+    ]
+  }
