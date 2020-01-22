@@ -1,3 +1,4 @@
+import Vue from 'vue'
 import DashboardLayout from "@/pages/Layout/DashboardLayout.vue";
 
 import Dashboard from "@/pages/Dashboard.vue";
@@ -10,13 +11,22 @@ import Notifications from "@/pages/Notifications.vue";
 import ReportGenerated from "@/pages/ReportGenerated.vue";
 import InspectionReport from "@/pages/Reports/InspectionReport.vue";
 import Equipments from '@/components/Plugins/Tiptap.vue'
+import Login from '@/pages/Login'
+import VueRouter from "vue-router";
+
+Vue.use(VueRouter)
 
 const routes = [
   {
     path: "/",
     component: DashboardLayout,
-    redirect: "/dashboard",
+    redirect: "/login",
     children: [
+      {
+        path: "login",
+        name: "login",
+        component: Login
+      },
       {
         path: "dashboard",
         name: "Dashboard",
@@ -69,4 +79,4 @@ const routes = [
   }
 ];
 
-export default routes;
+export default routes
