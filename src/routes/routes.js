@@ -39,6 +39,11 @@ const routes = [
         component: ReportGenerated
       },
       {
+        path: "gis",
+        name: "Gis Report",
+        component: Towermap
+      },
+      {
         path: "reports/:report_id",
         name: "Inspection Report",
         component: InspectionReport

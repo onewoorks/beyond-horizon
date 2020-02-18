@@ -11,27 +11,44 @@
           :lat-lng="marker.position"
           :icon="marker.icon"
         >
-            <l-popup>
-                
-                <div>{{marker.id}}</div>
-                <div><a href="">Go To Detail Report</a></div>
-                </l-popup>
+          <l-popup>
+            <div>{{ marker.id }}</div>
+            <div><a @click="open_mini_report()">Go To Detail Report</a></div>
+          </l-popup>
         </l-marker>
       </l-map>
+    </div>
+    <div class="mini-report">
+      <DetailReport />
     </div>
   </div>
 </template>
 
+<style>
+  .mini-report {
+        width: 45%;
+    height: 100vh;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    background-color: ghostwhite;
+    position: fixed;
+    display: none;
+  }
+</style>
+
 <script>
 import L from "leaflet";
 import { LMap, LTileLayer, LMarker, LPopup } from "vue2-leaflet";
+import DetailReport from '@/pages/Reports/Gis/DetailReport'
 
 export default {
   components: {
     "l-map": LMap,
     "l-tile-layer": LTileLayer,
     "l-marker": LMarker,
-    "l-popup": LPopup
+    "l-popup": LPopup,
+    DetailReport
   },
   data() {
     const myMarkerIcon = L.icon({
@@ -67,7 +84,7 @@ export default {
         },
         {
           id: "m3",
-          position: [4.592202, 103.441450],
+          position: [4.592202, 103.44145],
           visible: true,
           icon: myMarkerIcon
         },
@@ -85,7 +102,7 @@ export default {
         },
         {
           id: "m2",
-          position: [4.591150, 103.435576],
+          position: [4.59115, 103.435576],
           visible: true,
           icon: myMarkerIcon
         }
@@ -96,6 +113,11 @@ export default {
     this.$nextTick(() => {
       this.map = this.$refs.map.mapObject;
     });
+  },
+  methods: {
+    open_mini_report: function(){
+      document.getElementsByClassName('mini-report')[0].style.display = 'block'
+    }
   }
 };
 </script>

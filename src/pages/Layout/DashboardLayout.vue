@@ -14,6 +14,11 @@
         <p>Reports Generated</p>
       </sidebar-link>
 
+      <sidebar-link to="/gis">
+        <md-icon>assessment</md-icon>
+        <p>GIS Reports</p>
+      </sidebar-link>
+
       <br>
       <br>
 
