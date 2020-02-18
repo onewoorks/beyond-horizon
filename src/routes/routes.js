@@ -13,6 +13,7 @@ import InspectionReport from "@/pages/Reports/InspectionReport.vue";
 import Equipments from '@/components/Plugins/Tiptap.vue'
 import Login from '@/pages/Login'
 import VueRouter from "vue-router";
+import Towermap from '@/pages/Reports/Towermap'
 
 Vue.use(VueRouter)
 
@@ -75,6 +76,11 @@ const routes = [
         name: "Notifications",
         component: Notifications
       },
+      {
+        path: "towermap",
+        name: "towermap",
+        component: Towermap
+      }
     ]
   }
 ];
