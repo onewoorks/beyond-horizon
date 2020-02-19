@@ -39,7 +39,7 @@
                   <p class="hidden-lg hidden-md">Notifications</p>
                 </a>
                 <ul class="dropdown-menu dropdown-menu-right">
-                  <li><a href="#">Mike John responded to your email</a></li>
+                  <li><a href="#">Fadzly Khalil responded to your email</a></li>
                   <li><a href="#">You have 5 new tasks</a></li>
                   <li><a href="#">You're now friend with Andrew</a></li>
                   <li><a href="#">Another Notification</a></li>
@@ -65,7 +65,7 @@
                       <p class="hidden-lg hidden-md">Notifications</p>
                     </md-button>
                     <ul class="dropdown-menu dropdown-menu-right">
-                      <li><a href="#">Mike John responded to your email</a></li>
+                      <li><a href="#">Fadzly Khalil responded to your email</a></li>
                       <li><a href="#">You have 5 new tasks</a></li>
                       <li><a href="#">You're now friend with Andrew</a></li>
                       <li><a href="#">Another Notification</a></li>

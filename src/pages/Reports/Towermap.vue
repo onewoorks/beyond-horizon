@@ -13,6 +13,7 @@
         >
           <l-popup>
             <div>{{ marker.id }}</div>
+            <br>
             <div><a @click="open_mini_report()">Go To Detail Report</a></div>
           </l-popup>
         </l-marker>
@@ -34,7 +35,10 @@
     background-color: ghostwhite;
     position: fixed;
     display: none;
+    overflow: scroll;
+    overflow-x: hidden
   }
+  
 </style>
 
 <script>
@@ -71,37 +75,37 @@ export default {
       }),
       markers: [
         {
-          id: "tower A1 - 13401 VF",
+          id: "TOWER A1 - 13400 VF",
           position: [4.594079, 103.448067],
           visible: true,
           icon: myMarkerIcon
         },
         {
-          id: "m2",
+          id: "TOWER A1 - 13401 VF",
           position: [4.592621, 103.443398],
           visible: true,
           icon: myMarkerIcon
         },
         {
-          id: "m3",
+          id: "TOWER A1 - 13402 VF",
           position: [4.592202, 103.44145],
           visible: true,
           icon: myMarkerIcon
         },
         {
-          id: "m4",
+          id: "TOWER A1 - 13403 VF",
           position: [4.591893, 103.440286],
           visible: true,
           icon: myMarkerIcon
         },
         {
-          id: "m5",
+          id: "TOWER A1 - 13404 VF",
           position: [4.591722, 103.438805],
           visible: true,
           icon: myMarkerIcon
         },
         {
-          id: "m2",
+          id: "TOWER A1 - 13405 VF",
           position: [4.59115, 103.435576],
           visible: true,
           icon: myMarkerIcon

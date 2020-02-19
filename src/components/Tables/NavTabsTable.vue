@@ -38,7 +38,7 @@ export default {
         },
         {
           name:
-            "Flooded: One year later, assessing what was lost and what was found when a ravaging rain swept through metro Detroit"
+            "Flooded: One year later, assessing what was lost and what was found when a ravaging rain swept"
         }
       ]
     };

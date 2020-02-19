@@ -4,7 +4,7 @@
 
     <side-bar v-if="this.$router.currentRoute.name!='login'">
       <mobile-menu slot="content"></mobile-menu>
-      <sidebar-link to="/dashboard">
+      <sidebar-link to="/dashboard" style=''>
         <md-icon>dashboard</md-icon>
         <p>Dashboard</p>
       </sidebar-link>

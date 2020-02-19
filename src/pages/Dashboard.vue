@@ -11,12 +11,12 @@
           data-background-color="blue"
         >
           <template slot="content">
-            <h4 class="title">Daily Sales</h4>
+            <h4 class="title">Daily Reports</h4>
             <p class="category">
               <span class="text-success"
-                ><i class="fas fa-long-arrow-alt-up"></i> 55%
+                ><i class="fas fa-long-arrow-alt-up"></i> 0%
               </span>
-              increase in today sales.
+              increase in today reports.
             </p>
           </template>
 
@@ -86,8 +86,8 @@
           </template>
 
           <template slot="content">
-            <p class="category">Revenue</p>
-            <h3 class="title">$34,245</h3>
+            <p class="category">Task Coverage</p>
+            <h3 class="title">0.00%</h3>
           </template>
 
           <template slot="footer">
@@ -107,17 +107,17 @@
           </template>
 
           <template slot="content">
-            <p class="category">Used Space</p>
+            <p class="category">Inspection Request</p>
             <h3 class="title">
-              49/50
-              <small>GB</small>
+              0/50
+              <small>Requests</small>
             </h3>
           </template>
 
           <template slot="footer">
             <div class="stats">
               <md-icon class="text-danger">warning</md-icon>
-              <a href="#pablo">Get More Space...</a>
+              <a href="#pablo">Request more inspection...</a>
             </div>
           </template>
         </stats-card>
@@ -138,7 +138,7 @@
           <template slot="footer">
             <div class="stats">
               <md-icon>local_offer</md-icon>
-              Tracked from Github
+              Tracked from Portal
             </div>
           </template>
         </stats-card>
@@ -169,8 +169,8 @@
       >
         <md-card>
           <md-card-header data-background-color="orange">
-            <h4 class="title">Employees Stats</h4>
-            <p class="category">New employees on 15th September, 2016</p>
+            <h4 class="title">Inspector Statictic</h4>
+            <p class="category">Inspector task as of today</p>
           </md-card-header>
           <md-card-content>
             <ordered-table table-header-color="orange"></ordered-table>
@@ -184,15 +184,15 @@
           <template slot="content">
             <span class="md-nav-tabs-title">Tasks:</span>
             <md-tabs class="md-success" md-alignment="left">
-              <md-tab id="tab-home" md-label="Bugs" md-icon="bug_report">
+              <md-tab id="tab-home" md-label="Inspection" md-icon="bug_report">
                 <nav-tabs-table></nav-tabs-table>
               </md-tab>
 
-              <md-tab id="tab-pages" md-label="Website" md-icon="code">
+              <md-tab id="tab-pages" md-label="Reporting" md-icon="code">
                 <nav-tabs-table></nav-tabs-table>
               </md-tab>
 
-              <md-tab id="tab-posts" md-label="server" md-icon="cloud">
+              <md-tab id="tab-posts" md-label="Site Visit" md-icon="cloud">
                 <nav-tabs-table></nav-tabs-table>
               </md-tab>
             </md-tabs>
@@ -225,7 +225,7 @@ export default {
       dailySalesChart: {
         data: {
           labels: ["M", "T", "W", "T", "F", "S", "S"],
-          series: [[12, 17, 7, 17, 23, 18, 38]]
+          series: [[0, 0, 0, 0, 0, 0, 0]]
         },
         options: {
           lineSmooth: this.$Chartist.Interpolation.cardinal({
@@ -244,7 +244,7 @@ export default {
       dataCompletedTasksChart: {
         data: {
           labels: ["12am", "3pm", "6pm", "9pm", "12pm", "3am", "6am", "9am"],
-          series: [[230, 750, 450, 300, 280, 240, 200, 190]]
+          series: [[0, 0, 0, 0, 0, 0, 0, 0]]
         },
 
         options: {
@@ -277,7 +277,7 @@ export default {
             "No",
             "De"
           ],
-          series: [[542, 443, 320, 780, 553, 453, 326, 434, 568, 610, 756, 895]]
+          series: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
         },
         options: {
           axisX: {
