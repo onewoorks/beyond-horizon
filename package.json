@@ -13,7 +13,7 @@
     "es6-promise": "^4.2.8",
     "google-maps": "^3.3.0",
     "leaflet": "^1.6.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "sass-loader": "^7.1.0",
     "tiptap": "^1.23.3",
     "tiptap-extensions": "^1.24.3",
